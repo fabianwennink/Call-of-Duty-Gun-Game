@@ -28,6 +28,8 @@ You are not required to install these as the gamemode can function without them,
   * <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=144982052">M9K Specialties</a>
   * <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=500247187">Call of Duty MW2 Playermodels</a>
   * <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=110871780">Hit Numbers</a>
+  * 
+  * Workshop collection: <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=751057217">click here</a>
 
 As a dedicated server owner you can disable the usage of these addons in the settings.lua file. If you use this gamemode
 in a 'singleplayer' server, it will automatically switch to the default weapons if the additional addons are missing.
