@@ -76,21 +76,21 @@ GG_BACKUP_WEAPONS_LIST = {
 	{ weapon = "weapon_smg1", ammo = 64 },
 	{ weapon = "weapon_shotgun", ammo = 40 },
 	{ weapon = "weapon_ar2", ammo = 100 },
-	{ weapon = "weapon_crossbow", ammo = 30 },
+	{ weapon = "weapon_crossbow", ammo = 10 },
 	{ weapon = "weapon_rpg", ammo = 2 },
 	{ weapon = "weapon_357", ammo = 36 },
 	{ weapon = "weapon_pistol", ammo = 36 },
 	{ weapon = "weapon_smg1", ammo = 64 },
 	{ weapon = "weapon_shotgun", ammo = 40 },
 	{ weapon = "weapon_ar2", ammo = 100 },
-	{ weapon = "weapon_crossbow", ammo = 30 },
+	{ weapon = "weapon_crossbow", ammo = 10 },
 	{ weapon = "weapon_rpg", ammo = 2 },
 	{ weapon = "weapon_357", ammo = 36 },
 	{ weapon = "weapon_pistol", ammo = 36 },
 	{ weapon = "weapon_smg1", ammo = 64 },
 	{ weapon = "weapon_shotgun", ammo = 40 },
 	{ weapon = "weapon_ar2", ammo = 100 },
-	{ weapon = "weapon_crossbow", ammo = 30 },
+	{ weapon = "weapon_crossbow", ammo = 10 },
 }
 
 --[[-------------------------------------------------------------------------
@@ -100,12 +100,14 @@ Note: If somehow the melee weapon down below doesn't work, the back-up melee
 weapon will be used instead.
 ---------------------------------------------------------------------------]]
 GG_KNIFE = "m9k_knife"
+GG_KNIFE_THROW = "m9k_thrown_spec_knife"
 
 --[[-------------------------------------------------------------------------
 This is the back-up melee weapon that will be used during the game if somehow 
 the above melee weapon doesn't work.
 ---------------------------------------------------------------------------]]
 GG_BACKUP_KNIFE = "weapon_crowbar"
+GG_BACKUP_KNIFE_THROW = "weapon_crowbar"
 
 --[[-------------------------------------------------------------------------
 This is a list of skins that will be used during the game. You can add
@@ -150,12 +152,26 @@ GG_BACKUP_SKINS_LIST = {
 --[[-------------------------------------------------------------------------
 The default number of minutes a round will take. You can also edit this in-game.
 ---------------------------------------------------------------------------]]
-GG_ROUND_TIME_IN_MINUTES = 10
+GG_ROUND_TIME_IN_MINUTES = 15
 
 --[[-------------------------------------------------------------------------
 The default amount of rounds a match has. You can also edit this in-game.
 ---------------------------------------------------------------------------]]
 GG_AMOUNT_OF_ROUNDS_PER_MATCH = 5
+
+--[[-------------------------------------------------------------------------
+This is a list of usernames who can edit the game settings and start the 
+match. If you leave the list empty, every player can start the match.
+
+Note: If a player has admin rights but is not present in this list, he/she
+can still start and control the game.
+
+Example: GG_ALLOWED_PLAYERS = {
+	"poepjejan1",
+	"bluedragon102"
+}
+---------------------------------------------------------------------------]]
+GG_ALLOWED_PLAYERS = {}
 
 --[[-------------------------------------------------------------------------
 MySQL Support. If enabled, certain game stats will be stored which can be
@@ -190,5 +206,5 @@ GG_MYSQL_POST = 3306
 --[[-------------------------------------------------------------------------
 KEEP THIS DISABLED ON REAL SERVERS - FOR DEBUGGING ONLY!
 ---------------------------------------------------------------------------]]
-GG_DEBUG = true
+GG_DEBUG = false
 ```
