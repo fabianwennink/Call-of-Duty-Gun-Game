@@ -2,7 +2,7 @@
 
 The `settings.lua` file can be found in `cod_gungame/gamemode/`.
 
-##Settings.lua
+## Settings.lua
 ```lua
 --[[-------------------------------------------------------------------------
 Enable or disable the usage of the M9K weapon packs.
