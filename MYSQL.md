@@ -7,19 +7,19 @@ player stats like wins, kills and deaths will be stored when this setting is ena
 Because Gmod doesn't have a MySQL driver installed by default, you have to install it yourself.
 The required modules you need to install are `tmysql4` and `libmysql/libmysqlclient`.
 
-###tmysql4
+### tmysql4
 * Windows: https://github.com/bkacjios/gm_tmysql4/releases/download/R1/gmsv_tmysql4_win32.dll
 * Linux: https://github.com/bkacjios/gm_tmysql4/releases/download/R1.01/gmsv_tmysql4_linux.dll
 
 Copy the file to "path/to/server/garrysmod/lua/bin/". If the bin folder doesn't exist, go ahead and create one.
 
-###libmysql/libmysqlclient
+### libmysql/libmysqlclient
 * Windows: https://github.com/syl0r/MySQLOO/raw/master/MySQL/lib/windows/libmysql.dll
 * Linux: https://github.com/syl0r/MySQLOO/raw/master/MySQL/lib/linux/libmysqlclient.so.18
 
 Copy the file to "path/to/server/". This is the folder that contains `srcds.exe` or `srcds_run`.
 
-##Database table
+## Database table
 When you run the gamemode for the first time, it will automatically create the table `gmod_gungame` in your database. 
 The table will have the following columns:
 
