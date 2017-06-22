@@ -5,6 +5,7 @@ popular game franchise Call of Duty®.
 
 <i>"Each player starts with the same basic pistol. Every time you kill an enemy with your gun, you're upgraded to the next weapon. Anyone killed with a melee attack is demoted to the previous weapon, so watch your flank. Suicides also set you back to the previous tier, most often occurring when using explosive weapons. The match ends when someone cycles through all twenty weapons. Success in Gun Game requires aggressive tactics and familiarity with each weapon in the rotation. Don't worry about dying - just go for a lot of successive kills."</i> <b>— Call of Duty ELITE description.</b>
 
+## <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=765807753" target="_blank">Download the addon on Steam</a>
 
 ## Requirements:<br/>
 To play this gamemode you need at least 2 players. Additional addons and modules are required when using 
