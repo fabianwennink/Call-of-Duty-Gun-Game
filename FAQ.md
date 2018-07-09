@@ -15,7 +15,7 @@ A: To install any gamemode on a dedicated server, you'll need to decompile the a
 <b>Q: I can't press the 'Start Game' button!</b><br />
 A: Only admins and players defined in the `GG_ALLOWED_PLAYERS` table are allowed to start the match. If you can't edit the `settings.lua` file, please install a rank/permissions manager.
 
-<b>Q: I don't see a countdown screen after starting the match!</b><br/ >
+<b>Q: I don't see a countdown screen after starting the match!</b><br />
 A: When this happens it's likely that your addon version doesn't match the server one. Please make sure that both are up-to-date. It's not really a huge problem if the screen doesn't appear as the gamemode still runs in the background.
 
 <b>Q: The MySQL database doesn't work!</b><br />
