@@ -9,7 +9,9 @@ A: No, you are not required to install any of the additional addons. I used thes
 A: Yes, you can use this gamemode in a 'singleplayer' server but remember that it's not really made for this kind of server.
 
 <b>Q: How do I install the gamemode on my dedicated server?</b><br />
-A: To install any gamemode on a dedicated server, you'll need to decompile the addon file and place the decompiled folder in the 'gamemodes' folder of your server. For a more detailed tutorial, please watch <a href="https://www.youtube.com/watch?v=waLchC8_qRk">https://www.youtube.com/watch?v=waLchC8_qRk</a>.
+A: To install the gamemode on your dedicate server, you can either download the decompiled gamemode source files from <a href="https://github.com/fabianwennink/Call-of-Duty-Gun-Game/releases">here</a> or decompile the addon yourself by using the GMAD Extractor: <a href="https://www.youtube.com/watch?v=waLchC8_qRk">https://www.youtube.com/watch?v=waLchC8_qRk</a>.
+
+Once you have downloaded/decompiled the source files, simply drag the `/cod_gungame/` folder into the `/gamemodes/` folder of your server.
 
 
 <b>Q: I can't press the 'Start Game' button!</b><br />
