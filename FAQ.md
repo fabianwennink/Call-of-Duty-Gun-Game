@@ -1,6 +1,6 @@
 # Call of Duty - Gun Game | FAQ
 <b>Q: Can I use any weapon/playermodel (addon) I want?</b><br />
-A: Yes, you can use any weapon or playermodel you want as long as the server has installed the required addons and you're using a dedicated server. Please keep the secondary weapon a melee-type weapon.
+A: Yes, you can use any weapon or playermodel you want as long as the server has installed the required addons and you're using a dedicated server. You can edit the weapons list located in the settings.lua file, see <a href="https://github.com/fabianwennink/Call-of-Duty-Gun-Game/blob/92629918ed0a10b392cfa581d78e3556944275f0/SETTINGS.md">SETTINGS.md (GG_WEAPONS_LIST)</a> for a preview. It's best to keep the secondary weapon a melee-type weapon.
 
 <b>Q: Do I need to install the additional addons?</b><br/>
 A: No, you are not required to install any of the additional addons. I used these addons during the development of the gamemode to make the gamemode feel more Call of Duty-like. The gamemode will function in the same way as it would with the additional addons being installed.
